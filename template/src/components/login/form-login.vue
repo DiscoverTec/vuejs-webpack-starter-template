@@ -7,7 +7,7 @@
       <i v-if="loading" class="fa fa-spinner fa-spin" aria-hidden="true"></i>
     </button>
     <div v-if="message" class="alert alert-warning mt-2">
-      {{message}}
+      \{{message}}
     </div>
   </form>
 </template>

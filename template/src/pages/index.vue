@@ -5,7 +5,7 @@
     <hr/>
     <code style="word-break: break-all; display: inline-block">
       <strong>Token:</strong>
-      {{token}}
+      \{{token}}
     </code>
   </div>
 </template>
