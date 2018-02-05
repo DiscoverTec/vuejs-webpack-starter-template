@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component form-login should display error when 403 1`] = `"Incorrect username or password"`;
+
+exports[`Component form-login should display error when 500 1`] = `"Error: Unable to login"`;
+
+exports[`Component form-login should display loading and messages 1`] = `
+<form>
+    <!---->
+    <!---->
+    <button type="submit" disabled="disabled" class="btn btn-success btn-block">
+        Log In
+        <i aria-hidden="true" class="fa fa-spinner fa-spin"></i>
+    </button>
+    <div class="alert alert-warning mt-2">
+        Sample Message
+    </div>
+</form>
+`;

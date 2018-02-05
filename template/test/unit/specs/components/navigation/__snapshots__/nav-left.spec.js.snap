@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component nav-left renders to a snapshot 1`] = `
+<nav class="nav flex-column">
+    <router-link to="/" title="Main" class="nav-link">
+        <i aria-hidden="true" class="fa pr-2 fa-puzzle-piece"></i>
+        Main
+    </router-link>
+</nav>
+`;

@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component dt-input should render default properties 1`] = `
+<div class="form-group">
+    <label for="testinput" class="control-label">Test Input:</label>
+    <input id="testinput" type="text" name="testinput" maxlength="50" placeholder="Test Input" value="Sample Input" class="form-control">
+    <!---->
+</div>
+`;
+
+exports[`Component dt-input should render error message 1`] = `
+<div class="form-group has-warning">
+    <label for="testinput" class="control-label">Test Input:</label>
+    <input id="testinput" type="text" name="testinput" maxlength="50" placeholder="Test Input" class="form-control">
+    <small class="text-danger">
+        The testinput field is required.
+    </small>
+</div>
+`;
+
+exports[`Component dt-input should render with all properties 1`] = `
+<div class="form-group">
+    <label for="testinput" class="control-label">Test Input:</label>
+    <input id="testinput" type="password" name="testinput" maxlength="100" placeholder="Test Input" disabled="disabled" value="Sample Input" class="form-control">
+    <!---->
+</div>
+`;
+
+exports[`Component dt-input should trigger change event 1`] = `
+Array [
+  Array [
+    "testing",
+  ],
+]
+`;
