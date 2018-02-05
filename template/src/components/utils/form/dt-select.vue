@@ -7,11 +7,11 @@
     <template v-else>
       <select :name="name" v-model="selected" @change="change" class="form-control" v-validate="validate || ''">
         <option :value="option.value" v-for="option of options" :key="option.value">
-          {{option.name}}
+          \{{option.name}}
         </option>
       </select>
       <small class="text-danger" v-show="errors.has(name || '')">
-        {{ errors.first(name || '') }}
+        \{{ errors.first(name || '') }}
       </small>
     </template>
   </div>
