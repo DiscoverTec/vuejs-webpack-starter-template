@@ -14,8 +14,8 @@ This is a project template for [vue-cli](https://github.com/vuejs/vue-cli). **It
 
 ``` bash
 $ npm install -g vue-cli
-$ vue init discovertec/vuejs-webpack-starter-template my-project
-$ cd my-project
+$ vue init discovertec/vuejs-webpack-starter-template {{name}}
+$ cd {{name}}
 $ npm install
 $ npm run dev
 ```
