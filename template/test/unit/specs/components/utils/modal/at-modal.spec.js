@@ -1,6 +1,6 @@
 import { shallow } from '@vue/test-utils'
 import { createRenderer } from 'vue-server-renderer'
-import Component from '@/components/navigation/utils/modal/at-modal.vue'
+import Component from '@/components/utils/modal/dt-modal.vue'
 
 describe(`Component ${Component.name}`, () => {
 
