@@ -1,6 +1,6 @@
 <template>
   <div class="form-group" :class="{'has-warning': errors.has(name || '')}">
-    <label v-if="label" class="control-label"> {{label}}: </label>
+    <label v-if="label" class="control-label"> \{{label}}: </label>
     <template v-if="disabled">
       <input class="form-control" :placeholder="label" :value="disabledText" disabled/>
     </template>

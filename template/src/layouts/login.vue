@@ -3,7 +3,7 @@
     <router-view/>
     <div class="container mt-5">
       <hr/>
-      <pre>v{{version}}</pre>
+      <pre>v\{{version}}</pre>
     </div>
   </div>
 </template>

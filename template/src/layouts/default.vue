@@ -4,13 +4,13 @@
       <div class="d-none d-md-block col-12 col-md-3 col-xl-2 bd-sidebar">
         <div class="text-center my-4">
           <h4>Site Sample</h4>
-          <pre class="small">v{{version}}</pre>
+          <pre class="small">v\{{version}}</pre>
         </div>
         <div class="mb-5">
           <hr/>
           <nav-left/>
           <hr/>
-          <pre>app.config: {{config}}</pre>
+          <pre>app.config: \{{config}}</pre>
         </div>
       </div>
       <main class="col-12 col-md-9 col-xl-10 py-3 px-md-5">
