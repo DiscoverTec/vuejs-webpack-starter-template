@@ -14,7 +14,7 @@
 
             <!-- default column -->
             <template v-else>
-              {{ column.label }}
+              \{{ column.label }}
             </template>
 
             <!-- sort icon -->
@@ -51,12 +51,12 @@
 
           <!-- tbody if no slot but columns  -->
           <template v-else-if="tableColumns.length" v-for="(column, cIndex) of tableColumns">
-            <td :key="cIndex" v-show="!column.hidden"> {{ row[column.field] }} </td>
+            <td :key="cIndex" v-show="!column.hidden"> \{{ row[column.field] }} </td>
           </template>
 
           <!-- tbody default -->
           <template v-else>
-            <td> {{row}} </td>
+            <td> \{{row}} </td>
           </template>
 
         </tr>
