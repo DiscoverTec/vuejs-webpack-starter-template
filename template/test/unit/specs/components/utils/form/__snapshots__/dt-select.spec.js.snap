@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component dt-select should display disabled select with options 1`] = `
+<div class="form-group">
+    <label class="control-label"> Test Input: </label>
+    <input placeholder="Test Input" disabled="disabled" value="one" class="form-control">
+</div>
+`;
+
+exports[`Component dt-select should display disabled select without options 1`] = `
+<div class="form-group">
+    <label class="control-label"> Test Input: </label>
+    <input placeholder="Test Input" disabled="disabled" value="1" class="form-control">
+</div>
+`;
+
+exports[`Component dt-select should render default properties 1`] = `
+<div class="form-group">
+    <label class="control-label"> Test Input: </label>
+    <select name="testinput" class="form-control"></select>
+    <small class="text-danger" style="display:none;">
+
+    </small>
+</div>
+`;
+
+exports[`Component dt-select should render error message 1`] = `
+<div class="form-group has-warning">
+    <label class="control-label"> Test Input: </label>
+    <select name="testinput" class="form-control"></select>
+    <small class="text-danger">
+        The testinput field is required.
+    </small>
+</div>
+`;
+
+exports[`Component dt-select should render with all properties 1`] = `
+<div class="form-group">
+    <label class="control-label"> Test Input: </label>
+    <select name="testinput" class="form-control">
+        <option selected="selected" value="1">
+            one
+        </option>
+        <option value="2">
+            two
+        </option>
+        <option value="3">
+            three
+        </option>
+    </select>
+    <small class="text-danger" style="display:none;">
+
+    </small>
+</div>
+`;

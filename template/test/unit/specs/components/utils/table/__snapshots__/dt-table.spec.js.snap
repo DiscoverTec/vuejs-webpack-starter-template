@@ -1,0 +1,650 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component dt-table should always flip sort if column is default to asc 1`] = `
+<table>
+    <thead>
+        <tr>
+            <!---->
+            <th class="cursor">
+                ID
+                <!---->
+            </th>
+            <th class="cursor">
+                First Name
+                <i aria-hidden="true" class="fa fa-arrow-circle-down"></i>
+            </th>
+            <th>
+                Last Name
+                <!---->
+            </th>
+            <th>
+                Date
+                <!---->
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <!---->
+        <tr>
+            <!---->
+            <td> 1 </td>
+            <td> Jesse </td>
+            <td> Simmons </td>
+            <td> 2016/10/15 13:43:27 </td>
+        </tr>
+        <!---->
+        <tr>
+            <!---->
+            <td> 2 </td>
+            <td> John </td>
+            <td> Jacobs </td>
+            <td> 2016/12/15 06:00:53 </td>
+        </tr>
+        <!---->
+        <tr>
+            <!---->
+            <td> 3 </td>
+            <td> Tina </td>
+            <td> Gilbert </td>
+            <td> 2016/04/26 06:26:28 </td>
+        </tr>
+        <!---->
+        <tr>
+            <!---->
+            <td> 4 </td>
+            <td> Clarence </td>
+            <td> Flores </td>
+            <td> 2016/04/10 10:28:46 </td>
+        </tr>
+        <!---->
+        <tr>
+            <!---->
+            <td> 5 </td>
+            <td> Anne </td>
+            <td> Lee </td>
+            <td> 2016/12/06 14:38:38 </td>
+        </tr>
+        <!---->
+    </tbody>
+    <!---->
+</table>
+`;
+
+exports[`Component dt-table should change sort direction and sort on when clicked 1`] = `
+<table>
+    <thead>
+        <tr>
+            <!---->
+            <th class="cursor">
+                ID
+                <!---->
+            </th>
+            <th class="cursor">
+                First Name
+                <i aria-hidden="true" class="fa fa-arrow-circle-down"></i>
+            </th>
+            <th>
+                Last Name
+                <!---->
+            </th>
+            <th>
+                Date
+                <!---->
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <!---->
+        <tr>
+            <!---->
+            <td> 1 </td>
+            <td> Jesse </td>
+            <td> Simmons </td>
+            <td> 2016/10/15 13:43:27 </td>
+        </tr>
+        <!---->
+        <tr>
+            <!---->
+            <td> 2 </td>
+            <td> John </td>
+            <td> Jacobs </td>
+            <td> 2016/12/15 06:00:53 </td>
+        </tr>
+        <!---->
+        <tr>
+            <!---->
+            <td> 3 </td>
+            <td> Tina </td>
+            <td> Gilbert </td>
+            <td> 2016/04/26 06:26:28 </td>
+        </tr>
+        <!---->
+        <tr>
+            <!---->
+            <td> 4 </td>
+            <td> Clarence </td>
+            <td> Flores </td>
+            <td> 2016/04/10 10:28:46 </td>
+        </tr>
+        <!---->
+        <tr>
+            <!---->
+            <td> 5 </td>
+            <td> Anne </td>
+            <td> Lee </td>
+            <td> 2016/12/06 14:38:38 </td>
+        </tr>
+        <!---->
+    </tbody>
+    <!---->
+</table>
+`;
+
+exports[`Component dt-table should change sort direction and sort on when clicked: sort emitted 1`] = `
+Array [
+  Array [
+    Object {
+      "field": "firstName",
+      "label": "First Name",
+      "sortable": true,
+    },
+    "asc",
+  ],
+  Array [
+    Object {
+      "field": "firstName",
+      "label": "First Name",
+      "sortable": true,
+    },
+    "desc",
+  ],
+]
+`;
+
+exports[`Component dt-table should change sort direction on click 1`] = `
+<table>
+    <thead>
+        <tr>
+            <!---->
+            <th class="cursor">
+                ID
+                <i aria-hidden="true" class="fa fa-arrow-circle-up"></i>
+            </th>
+            <th class="cursor">
+                First Name
+                <!---->
+            </th>
+            <th>
+                Last Name
+                <!---->
+            </th>
+            <th>
+                Date
+                <!---->
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <!---->
+        <tr>
+            <!---->
+            <td> 1 </td>
+            <td> Jesse </td>
+            <td> Simmons </td>
+            <td> 2016/10/15 13:43:27 </td>
+        </tr>
+        <!---->
+        <tr>
+            <!---->
+            <td> 2 </td>
+            <td> John </td>
+            <td> Jacobs </td>
+            <td> 2016/12/15 06:00:53 </td>
+        </tr>
+        <!---->
+        <tr>
+            <!---->
+            <td> 3 </td>
+            <td> Tina </td>
+            <td> Gilbert </td>
+            <td> 2016/04/26 06:26:28 </td>
+        </tr>
+        <!---->
+        <tr>
+            <!---->
+            <td> 4 </td>
+            <td> Clarence </td>
+            <td> Flores </td>
+            <td> 2016/04/10 10:28:46 </td>
+        </tr>
+        <!---->
+        <tr>
+            <!---->
+            <td> 5 </td>
+            <td> Anne </td>
+            <td> Lee </td>
+            <td> 2016/12/06 14:38:38 </td>
+        </tr>
+        <!---->
+    </tbody>
+    <!---->
+</table>
+`;
+
+exports[`Component dt-table should change sort direction on click: sort emitted 1`] = `
+Array [
+  Array [
+    Object {
+      "field": "id",
+      "label": "ID",
+      "sortable": true,
+    },
+    "asc",
+  ],
+]
+`;
+
+exports[`Component dt-table should emit toggle when toggle detail is called 1`] = `
+Array [
+  Array [
+    true,
+    Object {
+      "id": 1,
+      "isDetailVisible": true,
+    },
+  ],
+]
+`;
+
+exports[`Component dt-table should hide columns and data when no slot is used 1`] = `
+<table>
+    <thead>
+        <tr>
+            <!---->
+            <th style="display:none;">
+                ID
+                <!---->
+            </th>
+            <th style="display:none;">
+                First Name
+                <!---->
+            </th>
+            <th>
+                Last Name
+                <!---->
+            </th>
+            <th>
+                Date
+                <!---->
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <!---->
+        <tr>
+            <!---->
+            <td style="display:none;"> 1 </td>
+            <td style="display:none;"> Jesse </td>
+            <td> Simmons </td>
+            <td> 2016/10/15 13:43:27 </td>
+        </tr>
+        <!---->
+        <tr>
+            <!---->
+            <td style="display:none;"> 2 </td>
+            <td style="display:none;"> John </td>
+            <td> Jacobs </td>
+            <td> 2016/12/15 06:00:53 </td>
+        </tr>
+        <!---->
+        <tr>
+            <!---->
+            <td style="display:none;"> 3 </td>
+            <td style="display:none;"> Tina </td>
+            <td> Gilbert </td>
+            <td> 2016/04/26 06:26:28 </td>
+        </tr>
+        <!---->
+        <tr>
+            <!---->
+            <td style="display:none;"> 4 </td>
+            <td style="display:none;"> Clarence </td>
+            <td> Flores </td>
+            <td> 2016/04/10 10:28:46 </td>
+        </tr>
+        <!---->
+        <tr>
+            <!---->
+            <td style="display:none;"> 5 </td>
+            <td style="display:none;"> Anne </td>
+            <td> Lee </td>
+            <td> 2016/12/06 14:38:38 </td>
+        </tr>
+        <!---->
+    </tbody>
+    <!---->
+</table>
+`;
+
+exports[`Component dt-table should hide columns only 1`] = `
+<table>
+    <thead>
+        <tr>
+            <!---->
+            <th style="display:none;">
+                ID
+                <!---->
+            </th>
+            <th style="display:none;">
+                First Name
+                <!---->
+            </th>
+            <th>
+                Last Name
+                <!---->
+            </th>
+            <th>
+                Date
+                <!---->
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td colspan="999">
+                <!---->
+            </td>
+        </tr>
+    </tbody>
+    <!---->
+</table>
+`;
+
+exports[`Component dt-table should omit sort on and direction if column is not sortable 1`] = `
+<table>
+    <thead>
+        <tr>
+            <!---->
+            <th>
+                ID
+                <!---->
+            </th>
+            <th>
+                First Name
+                <!---->
+            </th>
+            <th>
+                Last Name
+                <!---->
+            </th>
+            <th>
+                Date
+                <!---->
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <!---->
+        <tr>
+            <!---->
+            <td> 1 </td>
+            <td> Jesse </td>
+            <td> Simmons </td>
+            <td> 2016/10/15 13:43:27 </td>
+        </tr>
+        <!---->
+        <tr>
+            <!---->
+            <td> 2 </td>
+            <td> John </td>
+            <td> Jacobs </td>
+            <td> 2016/12/15 06:00:53 </td>
+        </tr>
+        <!---->
+        <tr>
+            <!---->
+            <td> 3 </td>
+            <td> Tina </td>
+            <td> Gilbert </td>
+            <td> 2016/04/26 06:26:28 </td>
+        </tr>
+        <!---->
+        <tr>
+            <!---->
+            <td> 4 </td>
+            <td> Clarence </td>
+            <td> Flores </td>
+            <td> 2016/04/10 10:28:46 </td>
+        </tr>
+        <!---->
+        <tr>
+            <!---->
+            <td> 5 </td>
+            <td> Anne </td>
+            <td> Lee </td>
+            <td> 2016/12/06 14:38:38 </td>
+        </tr>
+        <!---->
+    </tbody>
+    <!---->
+</table>
+`;
+
+exports[`Component dt-table should render a body with only props table data 1`] = `
+<table>
+    <!---->
+    <tbody>
+        <!---->
+        <tr>
+            <!---->
+            <td> { &quot;id&quot;: 1, &quot;firstName&quot;: &quot;Jesse&quot;, &quot;lastName&quot;: &quot;Simmons&quot;, &quot;date&quot;: &quot;2016/10/15 13:43:27&quot; } </td>
+        </tr>
+        <!---->
+        <tr>
+            <!---->
+            <td> { &quot;id&quot;: 2, &quot;firstName&quot;: &quot;John&quot;, &quot;lastName&quot;: &quot;Jacobs&quot;, &quot;date&quot;: &quot;2016/12/15 06:00:53&quot; } </td>
+        </tr>
+        <!---->
+        <tr>
+            <!---->
+            <td> { &quot;id&quot;: 3, &quot;firstName&quot;: &quot;Tina&quot;, &quot;lastName&quot;: &quot;Gilbert&quot;, &quot;date&quot;: &quot;2016/04/26 06:26:28&quot; } </td>
+        </tr>
+        <!---->
+        <tr>
+            <!---->
+            <td> { &quot;id&quot;: 4, &quot;firstName&quot;: &quot;Clarence&quot;, &quot;lastName&quot;: &quot;Flores&quot;, &quot;date&quot;: &quot;2016/04/10 10:28:46&quot; } </td>
+        </tr>
+        <!---->
+        <tr>
+            <!---->
+            <td> { &quot;id&quot;: 5, &quot;firstName&quot;: &quot;Anne&quot;, &quot;lastName&quot;: &quot;Lee&quot;, &quot;date&quot;: &quot;2016/12/06 14:38:38&quot; } </td>
+        </tr>
+        <!---->
+    </tbody>
+    <!---->
+</table>
+`;
+
+exports[`Component dt-table should render a header and body with only props table data and columns 1`] = `
+<table>
+    <thead>
+        <tr>
+            <!---->
+            <th>
+                ID
+                <!---->
+            </th>
+            <th>
+                First Name
+                <!---->
+            </th>
+            <th>
+                Last Name
+                <!---->
+            </th>
+            <th>
+                Date
+                <!---->
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <!---->
+        <tr>
+            <!---->
+            <td> 1 </td>
+            <td> Jesse </td>
+            <td> Simmons </td>
+            <td> 2016/10/15 13:43:27 </td>
+        </tr>
+        <!---->
+        <tr>
+            <!---->
+            <td> 2 </td>
+            <td> John </td>
+            <td> Jacobs </td>
+            <td> 2016/12/15 06:00:53 </td>
+        </tr>
+        <!---->
+        <tr>
+            <!---->
+            <td> 3 </td>
+            <td> Tina </td>
+            <td> Gilbert </td>
+            <td> 2016/04/26 06:26:28 </td>
+        </tr>
+        <!---->
+        <tr>
+            <!---->
+            <td> 4 </td>
+            <td> Clarence </td>
+            <td> Flores </td>
+            <td> 2016/04/10 10:28:46 </td>
+        </tr>
+        <!---->
+        <tr>
+            <!---->
+            <td> 5 </td>
+            <td> Anne </td>
+            <td> Lee </td>
+            <td> 2016/12/06 14:38:38 </td>
+        </tr>
+        <!---->
+    </tbody>
+    <!---->
+</table>
+`;
+
+exports[`Component dt-table should render an empty table 1`] = `
+<table>
+    <!---->
+    <tbody>
+        <tr>
+            <td colspan="999">
+                <!---->
+            </td>
+        </tr>
+    </tbody>
+    <!---->
+</table>
+`;
+
+exports[`Component dt-table should render an empty table with footer message 1`] = `
+<table>
+    <!---->
+    <tbody>
+        <tr>
+            <td colspan="999">
+                <!---->
+            </td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="999">This is footer message</td>
+        </tr>
+    </tfoot>
+</table>
+`;
+
+exports[`Component dt-table should render an empty table with slot message 1`] = `
+<table>
+    <!---->
+    <tbody>
+        <tr>
+            <td colspan="999">This is empty message</td>
+        </tr>
+    </tbody>
+    <!---->
+</table>
+`;
+
+exports[`Component dt-table should set the default sort on column and direction 1`] = `
+<table>
+    <thead>
+        <tr>
+            <!---->
+            <th class="cursor">
+                ID
+                <!---->
+            </th>
+            <th class="cursor">
+                First Name
+                <i aria-hidden="true" class="fa fa-arrow-circle-up"></i>
+            </th>
+            <th>
+                Last Name
+                <!---->
+            </th>
+            <th>
+                Date
+                <!---->
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <!---->
+        <tr>
+            <!---->
+            <td> 1 </td>
+            <td> Jesse </td>
+            <td> Simmons </td>
+            <td> 2016/10/15 13:43:27 </td>
+        </tr>
+        <!---->
+        <tr>
+            <!---->
+            <td> 2 </td>
+            <td> John </td>
+            <td> Jacobs </td>
+            <td> 2016/12/15 06:00:53 </td>
+        </tr>
+        <!---->
+        <tr>
+            <!---->
+            <td> 3 </td>
+            <td> Tina </td>
+            <td> Gilbert </td>
+            <td> 2016/04/26 06:26:28 </td>
+        </tr>
+        <!---->
+        <tr>
+            <!---->
+            <td> 4 </td>
+            <td> Clarence </td>
+            <td> Flores </td>
+            <td> 2016/04/10 10:28:46 </td>
+        </tr>
+        <!---->
+        <tr>
+            <!---->
+            <td> 5 </td>
+            <td> Anne </td>
+            <td> Lee </td>
+            <td> 2016/12/06 14:38:38 </td>
+        </tr>
+        <!---->
+    </tbody>
+    <!---->
+</table>
+`;

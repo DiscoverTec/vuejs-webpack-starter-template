@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component dt-modal should hide when v-modal is false 1`] = `<!---->`;
+
+exports[`Component dt-modal should show when v-modal is true 1`] = `
+<div>
+    <div tabindex="-1" role="dialog" class="modal">
+        <div role="document" class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header"></div>
+                <div class="modal-body"></div>
+                <div class="modal-footer"></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-backdrop fade show"></div>
+</div>
+`;

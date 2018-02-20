@@ -163,12 +163,12 @@ describe(`Component ${Component.name}`, () => {
     const renderer = createRenderer()
     const wrapper = mount(Component, {
       slots: {
-        thead: '[H] {{props.column.field}}',
+        thead: '[H] \{{props.column.field}}',
         tbody: `
-          <td> [T] {{props.row.id}} </td>
-          <td> [E] {{props.row.firstName}} </td>
-          <td> [S] {{props.row.lastName}} </td>
-          <td> [T] {{props.row.date}} </td>
+          <td> [T] \{{props.row.id}} </td>
+          <td> [E] \{{props.row.firstName}} </td>
+          <td> [S] \{{props.row.lastName}} </td>
+          <td> [T] \{{props.row.date}} </td>
         `
       },
       propsData: {
