@@ -1,5 +1,5 @@
-import http from '@/api'
 import * as types from './types'
+import http from '@/plugins/api'
 
 // a helper method to collect vee validation child components
 function collectChildValidation($this, validations) {
@@ -14,6 +14,9 @@ function collectChildValidation($this, validations) {
 export default {
   clearToken({ commit, state }) {
     commit(types.RESET_LOGIN)
+  },
+  setPassthrough({ commit }, passthrough) {
+    commit(types.SET_PASSTHROUGH, passthrough)
   },
   async getToken({ commit, dispatch }, [user, pwd]) {
     const r = { data: user + pwd }

@@ -1,11 +1,15 @@
 import * as types from './types'
+import storage from '@/plugins/storage'
 export default {
   [types.RESET_LOGIN](state) {
     state.token = null
-    sessionStorage.clear()
+    storage.session.clear()
   },
   [types.SET_TOKEN](state, token) {
     state.token = token
-    sessionStorage.setItem(types.SESSION_TOKEN_NAME, token)
+    storage.session.setItem(types.SESSION_TOKEN_NAME, token)
+  },
+  [types.SET_PASSTHROUGH](state, passthrough) {
+    state.passthrough = passthrough
   }
 }

@@ -1,5 +1,6 @@
 window.config = {
   apiUrl: '',
   authUrl: '',
-  signalrUrl: ''
+  signalrUrl: '',
+  environment: 'dev'
 }

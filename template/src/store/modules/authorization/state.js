@@ -1,4 +1,6 @@
 import * as types from './types'
+import storage from '@/plugins/storage'
 export default {
-  token: sessionStorage.getItem(types.SESSION_TOKEN_NAME)
+  passthrough: '',
+  token: storage.session.getItem(types.SESSION_TOKEN_NAME)
 }
